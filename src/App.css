@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: Amiri;
+  src: url("/public/fonts/Amiri-Bold.ttf");
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: A;
+  src: url("/public/fonts/Amiri-Regular.ttf");
+  font-weight: Regular;
+}
+
+@font-face {
+  font-family: A;
+  src: url("/public/fonts/Amiri-BoldItalic.ttf");
+  font-weight: BoldItalic;
+}
+
+@font-face {
+  font-family: A;
+  src: url("/public/fonts/Amiri-Italic.ttf");
+  font-weight: Italic;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: #101827;
+  direction: rtl;
+}
